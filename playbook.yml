@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  sudo: yes
+  tags:
+    - tp
+
+  roles:
+    - tac_plus
+
